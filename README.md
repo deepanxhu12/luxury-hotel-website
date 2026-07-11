@@ -22,7 +22,7 @@ A premium luxury hotel landing page built using HTML, CSS and JavaScript.
 
 ## Live Demo
 
-(Add your Vercel link here)
+https://luxury-hotel-website-one.vercel.app/
 
 ## Author
 
