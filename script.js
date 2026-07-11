@@ -139,3 +139,26 @@ bookingButton.addEventListener("mouseleave",()=>{
     bookingButton.innerHTML="BOOK YOUR STAY";
 
 });
+
+
+// navbar responsive
+const menuBtn = document.querySelector(".hotel-nav-toggle");
+const navMenu = document.querySelector(".hotel-nav-menu");
+const navItems = document.querySelectorAll(".hotel-nav-item");
+
+menuBtn.addEventListener("click", () => {
+
+    navMenu.classList.toggle("active");
+
+    if (navMenu.classList.contains("active")) {
+
+        menuBtn.innerHTML = `<i class="ri-close-line"></i>`;
+
+    } else {
+
+        menuBtn.innerHTML = `<i class="ri-menu-3-line"></i>`;
+
+    }
+
+});
+
